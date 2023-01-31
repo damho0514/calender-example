@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import Calender from './calender/Calender';
-import Feed from './feed/Feed';
+// import Calender from './calender/Calender';
+// import Feed from './feed/Feed';
 import Friends from './friends/Friends';
 import FriendsProfile from './friends/FriendsProfile';
 
@@ -12,9 +12,9 @@ const HomeTemplate = () => {
         <LeftSide>
           <Friends />
           <FriendsProfile />
-          <Calender />
+          {/* <Calender /> */}
         </LeftSide>
-        <Feed />
+        {/* <Feed /> */}
       </Main>
     </Wrapper>
   );
